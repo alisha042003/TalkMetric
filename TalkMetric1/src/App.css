@@ -1,0 +1,81 @@
+/* Global site background and font */
+body {
+  background: linear-gradient(120deg, #FFF7F3, #FFE4E1);
+  font-family: 'Roboto', sans-serif;
+  color: #4B3B2A;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #FF7F50;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: #FFF7F3;
+  margin: 0 12px;
+}
+
+.navbar a:hover {
+  color: #FFDAB9;
+}
+
+/* Buttons */
+button {
+  background-color: #FFB6B9;
+  color: #4B3B2A;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF7F50;
+  color: #FFF7F3;
+}
+
+/* Cards or containers (chat box, progress card, login form) */
+.card, .chat-container, .login-container, .progress-card {
+  background-color: #FFDAB9;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Home carousel images */
+.carousel-container img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Home welcome text */
+.home-welcome {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.home-welcome h2 {
+  color: #FF7F50;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-welcome p {
+  color: #4B3B2A;
+  font-size: 18px;
+}
+
+/* Inputs (Login / forms) */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border: 1px solid #FFDAB9;
+}

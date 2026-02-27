@@ -1,0 +1,12 @@
+access_key - AKIASVYXLZSLOTXEOOMX
+secret_access_key - 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
+key_api = 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
+
+
+groq= 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
+
+open_router = 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
+GEMINI_API_KEY = AIzaSyBIptOjRdGm--6F6Xa-hFErWnHE_kTy7xY
+
+app sign up login
+p.w- Jabeli@02

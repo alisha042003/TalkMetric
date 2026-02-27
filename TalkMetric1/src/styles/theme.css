@@ -1,0 +1,30 @@
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-image {
+  animation: float 4s ease-in-out infinite;
+}
+/* slick carousel default styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* optional: custom styling */
+.slick-slide img {
+  margin: auto;
+  border-radius: 15px; /* soft corners */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+.carousel-container {
+  max-width: 900px;
+  margin: 40px auto;
+}
